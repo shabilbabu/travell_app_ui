@@ -14,6 +14,10 @@ import 'package:flutter/services.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/account icon.png
+  AssetGenImage get accountIcon =>
+      const AssetGenImage('assets/icons/account icon.png');
+
   /// File path: assets/icons/building icon blue.png
   AssetGenImage get buildingIconBlue =>
       const AssetGenImage('assets/icons/building icon blue.png');
@@ -42,6 +46,10 @@ class $AssetsIconsGen {
   AssetGenImage get foodIconWhite =>
       const AssetGenImage('assets/icons/food icon white.png');
 
+  /// File path: assets/icons/home-smile.png
+  AssetGenImage get homeSmile =>
+      const AssetGenImage('assets/icons/home-smile.png');
+
   /// File path: assets/icons/password_icon.png
   AssetGenImage get passwordIcon =>
       const AssetGenImage('assets/icons/password_icon.png');
@@ -68,6 +76,7 @@ class $AssetsIconsGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        accountIcon,
         buildingIconBlue,
         buildingIconWhite,
         busIconBlue,
@@ -75,6 +84,7 @@ class $AssetsIconsGen {
         emailIcon,
         foodIconBlue,
         foodIconWhite,
+        homeSmile,
         passwordIcon,
         phoneIcon,
         planeIconBlue,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:travel_booking_app/features/bottom_navigation/screen/bottom_navigation_screen.dart';
 import 'package:travel_booking_app/features/home/screen/home_screen.dart';
 import 'package:travel_booking_app/shared/constants/font/font_constatnts.dart';
 
@@ -270,7 +271,7 @@ class _SignupScreenState extends State<SignupScreen> {
       title: StringConstants.signup,
       color: ColorName.colorLoginButton,
       onTap: () => Navigator.of(context)
-          .pushNamedAndRemoveUntil(HomeScreen.routeName, (route) => false),
+          .pushNamedAndRemoveUntil(BottomNavigationScreen.routeName, (route) => false),
     );
   }
 
